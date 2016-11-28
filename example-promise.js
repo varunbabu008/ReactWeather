@@ -34,7 +34,7 @@ addPromise('andrew',9).then(function(sum){
 console.log('this should not show up');
 },function(err){
 console.log('this should appear');
-})
+});
 
 
 
